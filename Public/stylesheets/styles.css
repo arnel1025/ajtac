@@ -1,0 +1,296 @@
+html {
+     font-family: Arial, sans-serif, serif;
+     font-size: 16px;
+}
+
+header {
+     width: 980px;
+     height: 40px;
+     font-size: 30px;
+     font-weight: bold;
+     background: #0055DD;
+     color: white;
+     text-align: center;
+}
+
+h1 {
+     color: blue;
+}
+
+h2 {
+     color: red;
+     font-weight: bolder;
+}
+
+footer {
+     position: absolute;
+     top: 1200px;
+     width: 980px;
+     height: 20px;
+     font-size: 12px;
+     background: #0055DD;
+     color: white;
+}
+
+/*for tables*/
+
+#content {
+     width: 920px;
+}
+
+#info {
+     position: relative;
+     left:50px;
+     width: 920px;
+}
+
+.Tableclass {
+     position: relative;
+     text-align: left;
+     background: #0055DD;
+     color: white;
+     width: 100%;
+     }
+
+.tablerefhead {
+     text-align: center;
+     width: 25%;
+}
+
+.tablenamehead {
+     text-align: left;
+     width: 75%;
+}
+
+td {
+     background: white;
+     color: #999999;
+     font-weight: bold;
+     padding: 0.5em;
+     }
+
+.colid {
+     text-align: center;
+     }
+
+dl {
+     background-color: lightgray;
+     }
+dt {
+     background-color: lightblue;
+}
+
+dd {
+     background-color: white;
+}
+
+dt, dd {
+     margin: 0.5em;
+     font-weight: bold;
+     font-size: 20px;
+     }
+
+/*for engineering add edit delete*/
+
+#formbox, #delbox {
+     position: relative;
+     left: 20px;
+     border-style: solid;
+     border-width: thin;
+     border: 3px:
+     width: 100%;
+     height:300px;
+     padding-bottom: 50px;
+     margin-bottom: 20px;
+     }
+
+#delbox {
+     height:500px;
+}
+
+label, input, select {
+     display: block;
+     margin-bottom: 10px;
+     background: lightblue;
+     }
+
+label {
+     padding-bottom: 10px;
+     background: white;
+     }
+
+input, select {
+     font-size: 20px;
+     margin-left: 20px;
+}
+
+input {
+     width: 90%;
+     box-shadow: 10px 5px 5px blue;
+}
+
+.delinfo, .dellabel{
+     font-size: 20px;
+     background: lightgray;
+     padding-left: 20px;
+     margin: auto;
+}
+
+.dellabel {
+     font-style: italic;
+     text-align: left;
+}
+
+.delinfo {
+     font-weight: bolder;
+     text-align: center;
+}
+
+#btn{
+     position: relative;
+     width: 10%;
+     left: 85%;
+     box-shadow: 10px 5px 5px blue;
+}
+
+/*for main page*/
+
+#lognav {
+     position: relative;
+     width: 200px;
+     display: block;
+     float: left;
+     margin: 10px;
+}
+
+#namelogin, #passlogin {
+     background: white;
+}
+
+.log {
+     font-weight: bolder;
+     font-size: 20px;
+     margin: 0;
+     padding: 0;
+}
+
+#btnlogin {
+     position: absolute;
+     cursor: pointer;
+     width: 80px;
+     top: 50%;
+     left: 100%;
+}
+
+#btnlogin:hover {
+     background: blue;
+     color: white;
+}
+
+#mainpagenav {
+     left: 20px;
+     top: 50px;
+     width: 380px;
+     height: 1000px;
+     position: absolute;
+     background-image: url("../images/main.jpg");
+     background-size: contain;
+     background-repeat: repeat-y;
+}
+
+.pagenavtext {
+     color: white;
+}
+
+#mainpagecontent {
+     left: 401px;
+     height: 1000px;
+     width: 650px;
+     position: absolute;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#mall, #hotel, #resto, #infra {
+     height: 25%;
+     background-color: white;
+}
+
+.gallery {
+     height: 75%;
+     width: 22%;
+     margin: 5px;
+     border-radius: 25%;
+}
+
+#largeimage{
+     position: absolute;
+     left: 1100px;
+     top: 12%;
+     width: 500px;
+     height: 950px;
+}
+
+#mall1, #mall2, #mall3, #mall4, #hotel1, #hotel2, #hotel3, #hotel4,
+#resto1, #resto2, #resto3, #resto4, #infra1, #infra2, #infra3, #infra4  {
+     position: absolute;
+     width: 75%;
+     height: 20%;
+     text-align: left;
+     overflow: hidden;
+}
+
+#mall1, #hotel1, #resto1, #infra1{ left:15px; }
+#mall2, #hotel2, #resto2, #infra2{ left:175px; }
+#mall3, #hotel3, #resto3, #infra3{ left:345px; }
+#mall4, #hotel4, #resto4, #infra4{ left:495px; }
+
+#magnifyimage {
+     position: absolute;
+     width: 100%;
+     height: 75%
+}
+
+#largeimagetext {
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/*for links*/
+
+ul, li {
+     list-style-type: none;
+     padding: 5px;
+     font-weight: bolder;
+}
+
+nav {
+     display: inline;
+}
+
+.gallery:hover {
+     height: 80%;
+     width: 25%;
+     box-shadow: 5px 3px 3px blue;
+}
+
+a:hover {
+     background-color: blue;
+}
+
+.selected {
+     background-color: green;
+     color: white;
+}
